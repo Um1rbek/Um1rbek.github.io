@@ -1,0 +1,43 @@
+
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#ball {
+    width: 50px;
+    height: 50px;
+    background-color: #ff4444;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 68, 68, 0.7);
+}
+
+#ball:hover {
+    cursor: pointer;
+}
+
+
+.box{
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+
+.title{
+    color: white;
+
+    font-family: monospace;
+}
+
+.text{
+    color: white;
+
+    font-family: monospace;
+}
